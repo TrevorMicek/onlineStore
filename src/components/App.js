@@ -24,9 +24,9 @@ export default (props) => {
 	return (
 		<Router>
 			<div id="App">
-				<Route exact path="/" render={() => <Redirect to="/Home" />} />
-				<Route path="/Home" component={Home} />
-				<Route path="/Home" component={Products} />
+		
+				<Route path="/" component={Home} />
+				<Route path="/" component={Products} />
 				<Route path="/Product/:productId" component={ProductView} />
 				<Route path="/" component={Cart} />
 			</div>
