@@ -22,7 +22,7 @@ export default (props) => {
 					return (
 						<div className="Product" key={product.id + i}>
 							{image ? (
-								<img src={image.src} alt={`${product.title} product shot`} width="225px" height="250px" />
+								<img src={image.src} alt={`${product.title} product shot`} width="300px" height="175px" />
 							) : null}
 							<div>
 								<h4 className="Product__title">{product.title}</h4>
