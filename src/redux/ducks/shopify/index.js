@@ -69,7 +69,6 @@ function getProducts() {
 		})
 	}
 }
-
 // Gets individual item based on id
 function getProduct(id) {
 	return async (dispatch) => {

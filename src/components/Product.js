@@ -12,15 +12,17 @@ export default (props) => {
 		})
 	}
 
+
 	return (
 		<div className="Product-wrapper">
 			{products &&
 				products.map((product, i) => {
 					const image = product.images[0]
+				console.log(product.id)
 					return (
 						<div className="Product" key={product.id + i}>
 							{image ? (
-								<img src={image.src} alt={`${product.title} product shot`} />
+								<img src={image.src} alt={`${product.title} product shot`} width="225px" height="250px" />
 							) : null}
 							<div>
 								<h4 className="Product__title">{product.title}</h4>
