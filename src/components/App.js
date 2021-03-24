@@ -24,7 +24,7 @@ export default (props) => {
 	return (
 		<Router>
 			<div id="App">
-				<Route exact path="/home" render={() => <Redirect to="/home" />} />
+				<Route exact path='https://online-store-example.netlify.app/Home' render={() => <Redirect to="/home" />} />
 				<Route path="/home" component={Home} />
 				<Route path="/home" component={Products} />
 				<Route path="/Product/:productId" component={ProductView} />
