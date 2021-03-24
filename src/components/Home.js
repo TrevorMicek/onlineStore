@@ -8,8 +8,8 @@ export default (props) => {
 		<div>
 			<header className="App__header">
 				<div className="App__title">
-					<h1>{shopDetails.name}: React / Redux Example</h1>
-					<h2>{shopDetails.description}</h2>
+					<h1>Custome Ecommerce</h1>
+					<h2>Built with React/Redux & Shopify's API</h2>
 				</div>
 			</header>
 		</div>
